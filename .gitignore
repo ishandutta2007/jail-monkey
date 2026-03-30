@@ -57,3 +57,4 @@ buck-out/
 
 # Local npm pack output (see npm run pack:tgz)
 artifacts/
+.vscode/settings.json

@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ExampleExpo55",
+    "slug": "ExampleExpo55",
+    "version": "1.0.0",
+    "scheme": "exampleexpo55",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jailmonkey.exampleexpo55"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jailmonkey.exampleexpo55"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

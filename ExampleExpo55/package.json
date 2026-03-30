@@ -1,0 +1,26 @@
+{
+  "name": "exampleexpo55",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "prebuild": "expo prebuild",
+    "postinstall": "node scripts/sync-local-lib.cjs"
+  },
+  "dependencies": {
+    "expo": "~55.0.0",
+    "expo-dev-client": "~55.0.19",
+    "expo-status-bar": "~55.0.4",
+    "jail-monkey": "file:..",
+    "react": "19.2.0",
+    "react-native": "0.83.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}

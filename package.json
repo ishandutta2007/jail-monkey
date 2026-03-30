@@ -58,6 +58,7 @@
     "shipit": "np",
     "test": "echo Not yet",
     "install-example": "cd ExampleProject && yarn install",
+    "install-example-expo55": "cd ExampleExpo55 && bun install",
     "ts-check": "npx tsc jailmonkey.d.ts --noEmit"
   },
   "typings": "./jailmonkey.d.ts",

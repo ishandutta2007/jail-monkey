@@ -23,7 +23,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.root}>
       <StatusBar style="auto" />
-      <View style={styles.content} accessible={false} accessibilityLabel="">
+      <View style={styles.content}>
         <Text style={styles.title}>Expo SDK 55 (New Architecture)</Text>
         <Text style={styles.subtitle}>jail-monkey from ../ (local)</Text>
 

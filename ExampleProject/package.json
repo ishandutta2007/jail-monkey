@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "jail-monkey": "../",
+    "jail-monkey": "file:../artifacts/jail-monkey-3.0.0.tgz",
     "react": "18.2.0",
     "react-native": "0.73.6"
   },

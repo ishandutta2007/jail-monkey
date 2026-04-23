@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "ExampleExpo55",
-    "slug": "ExampleExpo55",
+    "name": "ExampleExpo",
+    "slug": "ExampleExpo",
     "version": "1.0.0",
-    "scheme": "exampleexpo55",
+    "scheme": "exampleexpo",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jailmonkey.exampleexpo55"
+      "bundleIdentifier": "com.jailmonkey.exampleexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jailmonkey.exampleexpo55"
+      "package": "com.jailmonkey.exampleexpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"

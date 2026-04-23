@@ -1,9 +1,7 @@
-# Don't ship the example project
+# Don't ship the example projects
 ExampleProject/
-ExampleExpo55/
+ExampleExpo/
 
-# Local pack output (never nest tarball in tarball)
-artifacts/
 .github/
 .yarn/
 .yarnrc

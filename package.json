@@ -58,9 +58,7 @@
     "shipit": "np",
     "test": "echo Not yet",
     "install-example": "cd ExampleProject && yarn install",
-    "install-example-expo55": "rm -rf ExampleExpo55/node_modules ExampleExpo55/bun.lock ExampleExpo55/.expo && bun run pack:tgz && cd ExampleExpo55 && bun install && bunx expo prebuild --clean",
-    "build55": "bun run install-example-expo55 && sh -c '(cd ExampleExpo55 && bunx expo run:ios --no-bundler) & (cd ExampleExpo55 && bunx expo run:android --no-bundler) & wait' && sh -c 'cd ExampleExpo55 && unset CI; lsof -nP -iTCP:8888 -sTCP:LISTEN -t 2>/dev/null | xargs kill; bunx expo start --dev-client --port 8888 --clear'",
-    "pack:tgz": "mkdir -p artifacts && bun pm pack --destination ./artifacts",
+    "install-example-expo": "cd ExampleExpo && yarn install && npx expo install --fix && yarn expo prebuild --clean",
     "ts-check": "npx tsc jailmonkey.d.ts --noEmit"
   },
   "typings": "./jailmonkey.d.ts",

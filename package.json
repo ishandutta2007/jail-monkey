@@ -58,6 +58,7 @@
     "shipit": "np",
     "test": "echo Not yet",
     "install-example": "cd ExampleProject && yarn install",
+    "install-example-expo": "cd ExampleExpo && yarn install && npx expo install --fix && yarn expo prebuild --clean",
     "ts-check": "npx tsc jailmonkey.d.ts --noEmit"
   },
   "typings": "./jailmonkey.d.ts",

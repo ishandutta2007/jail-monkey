@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 
   s.source_files = "JailMonkey/**/*.{h,m,mm}"
 
+  s.frameworks = 'CoreLocation'
+
   s.dependency "React-Core"
 
   if ENV['RCT_NEW_ARCH_ENABLED'] == '1'

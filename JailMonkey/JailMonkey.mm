@@ -15,6 +15,7 @@
 #endif
 #include <TargetConditionals.h>
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 #import <sys/sysctl.h>
 
 static NSString * const JMJailbreakTextFile = @"/private/jailbreak.txt";

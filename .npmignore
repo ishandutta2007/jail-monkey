@@ -1,5 +1,7 @@
-# Don't ship the example project
+# Don't ship the example projects
 ExampleProject/
+ExampleExpo/
+
 .github/
 .yarn/
 .yarnrc
